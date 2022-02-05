@@ -1,0 +1,13 @@
+selector {
+property : value;
+}
+
+selektor :
+1. tag -> h1, a, div
+2. id -> #nama_id, ex: #header (id hanya bisa digunakan utk menyeleksi satu elemen)
+3. class -> .nama_kelasnya
+
+warna :
+1. menyebutkan warna dalam bahasa inggris
+2. kode hexa
+3. rgb -> rgb(x;y;z) => dalam () berisi 3 angka 0-255isi

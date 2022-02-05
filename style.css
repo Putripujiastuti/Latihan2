@@ -1,0 +1,89 @@
+/*body {
+    background-image: url('../Programming/gambar.jpg');
+}
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*background*/
+#header {
+    /*background-color: chartreuse;
+    background-image: url('../Programming/gambar.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: bottom right;
+    background: color image repeat attachment position;*/
+    background: chartreuse url('../Programming/gambar.jpg') no-repeat fixed top right;
+    background-size: cover;
+    height: 400px;
+    max-width: 100%;
+    min-width: 100%;
+    width: 100%;
+    padding: 30px 30px;
+}
+
+#header h1 {
+    float: left;
+    color: white;
+    margin-right: 650px;
+    margin-left: 30px;
+    line-height: 60px;
+    height: 60px;
+}
+
+.menu { 
+float: left;
+}
+
+.daftar_artikel {
+    background-color: darkblue;
+}
+
+.judul_artikel {
+   /* font-family: sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: bold;
+    font-variant: small-caps;
+    font: style variant weight size/line-height family; */
+    font: italic small-caps bold 20px/30px sans-serif;
+}
+
+/*text*/
+.isi_artikel {
+    color: chocolate;
+    text-decoration: underline;
+    text-transform: lowercase;
+    text-indent: 20px;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+}
+
+.a {
+    text-decoration: none;
+    display: inline-block;
+    /*visibility: hidden;*/
+    line-height: 60px;
+    height:60px;
+    width: 100px;
+    text-align: center;
+    /*margin: 0 10px 0 0;
+    padding: 10px;
+    border: 1px solid black*/
+    color: white;
+}
+
+a:hover{
+    color: yellow;
+}
+
+#variasi_huruf {
+    font-weight: bold;
+    font-size: 50px;
+}
